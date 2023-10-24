@@ -1,6 +1,8 @@
 import tkinter as tk
 import random
 
+# dans ce jeu je vais ecrire un jeu de snake c'est la premier base en suite elle possible de developer ensuite
+
 # Paramètres du jeu
 GRID_SIZE = 20
 GRID_WIDTH = 20
