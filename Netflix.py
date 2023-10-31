@@ -11,7 +11,6 @@ canvas.pack()
 # Afficher le nom "Netflix" en rouge avec une police personnalisée
 canvas.create_text(150, 50, text="Netflix", fill="red", font=("Helvetica", 30, "bold"))
 
-# Fonction pour fermer la fenêtre en cliquant sur le bouton "Fermer"
 def fermer_fenetre():
     fenetre.destroy()
 
