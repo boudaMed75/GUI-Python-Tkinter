@@ -15,7 +15,7 @@ canvas.create_text(150, 50, text="Netflix", fill="red", font=("Helvetica", 30, "
 def fermer_fenetre():
     fenetre.destroy()
 
-# Créer un bouton pour fermer la fenêtre
+
 bouton_fermer = tk.Button(fenetre, text="Fermer", command=fermer_fenetre)
 bouton_fermer.pack()
 
