@@ -1,6 +1,6 @@
 import tkinter as tk
 
-# Créer une fenêtre Tkinter
+
 fenetre = tk.Tk()
 fenetre.title("Logo Netflix")
 
