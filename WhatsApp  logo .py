@@ -22,7 +22,7 @@ canvas.create_polygon(40, 60, 20, 80, 40, 100, 160, 100, 180, 80, 160, 60, fill=
 def fermer_fenetre():
     fenetre.destroy()
 
-# Créer un bouton pour fermer la fenêtre
+
 bouton_fermer = tk.Button(fenetre, text="Fermer", command=fermer_fenetre)
 bouton_fermer.pack()
 
