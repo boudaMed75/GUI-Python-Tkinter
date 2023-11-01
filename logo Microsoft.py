@@ -13,7 +13,7 @@ def draw_logo():
     canvas = tk.Canvas(root, width=width+x, height=height+y)
     canvas.pack()
 
-    # Draw the main part of the logo
+    
     for i in range(1, 5):
         x += 10
         y += 10
