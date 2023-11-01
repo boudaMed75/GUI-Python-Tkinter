@@ -36,7 +36,7 @@ def draw_logo():
         y -= 90
         x += 10
 
-    # Run the tkinter window's main loop
+   
     root.mainloop()
 
 draw_logo()
