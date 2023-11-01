@@ -7,7 +7,7 @@ def draw_logo():
     x2, y2 = 90, 90
     width, height = 100, 100
 
-    # Create a new tkinter window
+   
     root = tk.Tk()
     root.title("Microsoft Logo")
     canvas = tk.Canvas(root, width=width+x, height=height+y)
