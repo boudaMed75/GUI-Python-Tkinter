@@ -8,7 +8,7 @@ root.title("Drapeau de l'Algérie")
 canvas = tk.Canvas(root, width=300, height=200, bg="white")
 canvas.pack()
 
-# Dessinez la bande verte à gauche
+
 canvas.create_rectangle(0, 0, 100, 200, fill="green")
 
 # Dessinez la bande blanche à droite
