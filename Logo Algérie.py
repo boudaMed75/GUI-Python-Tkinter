@@ -4,7 +4,7 @@ import tkinter as tk
 root = tk.Tk()
 root.title("Drapeau de l'Algérie")
 
-# Créez un canevas pour dessiner le drapeau
+
 canvas = tk.Canvas(root, width=300, height=200, bg="white")
 canvas.pack()
 
