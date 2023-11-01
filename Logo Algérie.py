@@ -1,6 +1,6 @@
 import tkinter as tk
 
-# Créez une fenêtre Tkinter
+
 root = tk.Tk()
 root.title("Drapeau de l'Algérie")
 
