@@ -11,7 +11,6 @@ canvas.pack()
 
 canvas.create_rectangle(0, 0, 100, 200, fill="green")
 
-# Dessinez la bande blanche à droite
 canvas.create_rectangle(100, 0, 300, 200, fill="white")
 
 
