@@ -3,6 +3,7 @@ import tkinter as tk
 
 def draw_logo():
     
+    
     x, y = 10, 10
     x2, y2 = 90, 90
     width, height = 100, 100
