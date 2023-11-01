@@ -23,7 +23,7 @@ def draw_logo():
         canvas.create_oval(x+15, y+15, x+65, y+65, fill='white')
         canvas.create_oval(x+25, y+25, x+55, y+55, fill='blue')
 
-    # Draw the two additional lines on the bottom
+    
     for i in range(2):
         x += 10
         y += 10
