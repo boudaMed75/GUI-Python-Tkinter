@@ -18,6 +18,6 @@ canvas.create_rectangle(100, 0, 300, 200, fill="white")
 canvas.create_polygon(150, 100, 160, 90, 170, 100, 160, 110, fill="red")  # Étoile
 canvas.create_arc(120, 90, 190, 160, start=30, extent=120, style=tk.ARC, outline="red")  # Croissant
 
-# Lancement de la boucle principale de l'application
+
 root.mainloop()
 
