@@ -4,7 +4,7 @@ import tkinter as tk
 fenetre = tk.Tk()
 fenetre.title("Drapeau de la France")
 
-# Largeur et hauteur du drapeau
+
 largeur = 300
 hauteur = 200
 
