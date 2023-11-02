@@ -1,1 +1,26 @@
+import tkinter as tk
 
+# Créer une fenêtre
+fenetre = tk.Tk()
+fenetre.title("Drapeau de la France")
+
+# Largeur et hauteur du drapeau
+largeur = 300
+hauteur = 200
+
+# Créer un canvas pour dessiner le drapeau
+canvas = tk.Canvas(fenetre, width=largeur, height=hauteur)
+canvas.pack()
+
+# Couleurs du drapeau
+bleu = "#0055A4"
+blanc = "white"
+rouge = "#EF4135"
+
+# Dessiner les bandes horizontales
+canvas.create_rectangle(0, 0, largeur, hauteur / 3, fill=bleu)
+canvas.create_rectangle(0, hauteur / 3, largeur, 2 * hauteur / 3, fill=blanc)
+canvas.create_rectangle(0, 2 * hauteur / 3, largeur, hauteur, fill=rouge)
+
+# Exécuter la fenêtre
+fenetre.mainloop()
