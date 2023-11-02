@@ -8,7 +8,7 @@ fenetre.title("Drapeau de la France")
 largeur = 300
 hauteur = 200
 
-# Créer un canvas pour dessiner le drapeau
+
 canvas = tk.Canvas(fenetre, width=largeur, height=hauteur)
 canvas.pack()
 
