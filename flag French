@@ -17,7 +17,7 @@ bleu = "#0055A4"
 blanc = "white"
 rouge = "#EF4135"
 
-# Dessiner les bandes horizontales
+
 canvas.create_rectangle(0, 0, largeur, hauteur / 3, fill=bleu)
 canvas.create_rectangle(0, hauteur / 3, largeur, 2 * hauteur / 3, fill=blanc)
 canvas.create_rectangle(0, 2 * hauteur / 3, largeur, hauteur, fill=rouge)
