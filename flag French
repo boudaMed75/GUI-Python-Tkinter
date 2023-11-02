@@ -12,7 +12,7 @@ hauteur = 200
 canvas = tk.Canvas(fenetre, width=largeur, height=hauteur)
 canvas.pack()
 
-# Couleurs du drapeau
+
 bleu = "#0055A4"
 blanc = "white"
 rouge = "#EF4135"
