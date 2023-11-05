@@ -43,6 +43,4 @@ for i in range(int(390/30)):
 
 
 
-
-
 fen1.mainloop()
