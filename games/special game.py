@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 fen1 = tk.Tk()
 fen1.title("Ma Fenêtre")
 
