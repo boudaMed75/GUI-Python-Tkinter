@@ -41,7 +41,7 @@ for i in range(int(390/30)):
 
 
 
-# demo1.create_rectangle(100,0,500,500,fill="dark gray")
+
 # demo1.create_rectangle(100,0,500,500,fill="dark gray")
 
 
