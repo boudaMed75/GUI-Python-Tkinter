@@ -40,7 +40,7 @@ for i in range(int(390/30)):
     demo1.create_rectangle(105+i*30,100,135+i*30,400,fill=coul_1[i%2])
 
 
-# demo1.create_rectangle(110,100,150,400,fill="red")
+
 # demo1.create_rectangle(100,0,500,500,fill="dark gray")
 # demo1.create_rectangle(100,0,500,500,fill="dark gray")
 
