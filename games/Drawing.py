@@ -3,11 +3,7 @@ import tkinter as tk
 
 
 
-def D1():
-    # this function well trace first design
-    global c,coul_v_2
-    for i in range(int(200/c)):
-        demo1.create_rectangle(0,c*i,500,c+(c*i), fill=coul_v_2[i%2], outline="black")
+
 def D2():
     global c,couleurs
     for i in range(int(200/c)):
