@@ -27,11 +27,6 @@ def D5():
     global coul_v_2
     for i in range(12):    
         demo5.create_rectangle(0+(i*c),0+(i*c),200-(i*c),200-(i*c), fill=coul_v_2[i%2])
-def D6():
-    c = 10
-    global couleurs
-    for i in range(12):    
-        demo6.create_rectangle(0+(i*c),0+(i*c),200-(i*c),200-(i*c), fill=couleurs[i])
 
 c = 20
 coul_v_2 = ["white","black"]
