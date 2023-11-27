@@ -4,9 +4,7 @@ from PIL import Image, ImageDraw
 width = 1200
 height = 800
 
-# Créer une image rouge
-image = Image.new('RGB', (width, height), 'red')
-draw = ImageDraw.Draw(image)
+
 
 
 
