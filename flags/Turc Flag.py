@@ -8,9 +8,6 @@ height = 800
 image = Image.new('RGB', (width, height), 'red')
 draw = ImageDraw.Draw(image)
 
-# Dimensions et proportions de la lune et de l'étoile
-moon_diameter = 400
-star_radius = 120
 
 
 
