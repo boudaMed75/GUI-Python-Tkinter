@@ -13,8 +13,7 @@ canvas.pack()
 # Dessiner l'icône de téléphone blanc
 canvas.create_rectangle(40, 60, 160, 150, fill="white")
 
-# Dessiner le récepteur du téléphone vert
-canvas.create_polygon(40, 60, 20, 80, 40, 100, 160, 100, 180, 80, 160, 60, fill="green")
+
 
 # Fonction pour fermer la fenêtre en cliquant sur le bouton "Fermer"
 def fermer_fenetre():
