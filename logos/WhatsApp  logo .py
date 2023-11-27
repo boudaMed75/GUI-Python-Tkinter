@@ -8,9 +8,7 @@ fenetre.title("Logo WhatsApp")
 canvas = tk.Canvas(fenetre, width=200, height=200, bg="green")
 canvas.pack()
 
-# Tracer le logo de WhatsApp
-# Dessiner l'arrière-plan vert
-canvas.create_oval(10, 10, 190, 190, fill="green")
+
 
 # Dessiner l'icône de téléphone blanc
 canvas.create_rectangle(40, 60, 160, 150, fill="white")
