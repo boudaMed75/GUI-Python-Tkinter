@@ -10,9 +10,6 @@ canvas.pack()
 
 
 
-# Dessiner l'icône de téléphone blanc
-canvas.create_rectangle(40, 60, 160, 150, fill="white")
-
 
 
 # Fonction pour fermer la fenêtre en cliquant sur le bouton "Fermer"
