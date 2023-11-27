@@ -12,10 +12,7 @@ draw = ImageDraw.Draw(image)
 moon_diameter = 400
 star_radius = 120
 
-# Dessiner la lune blanche
-moon_color = (255, 255, 255)
-moon_position = (width // 2 - moon_diameter // 2, height // 2 - moon_diameter // 2)
-draw.ellipse((moon_position[0], moon_position[1], moon_position[0] + moon_diameter, moon_position[1] + moon_diameter), fill=moon_color)
+
 
 # Dessiner l'étoile
 star_color = (255, 255, 255)
