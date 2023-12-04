@@ -5,15 +5,6 @@ def draw_square():
         t.forward(100)
         t.right(90)
 
-# Définir la taille du pinceau et la vitesse
-t.pensize(2)
-t.speed(1)
-
-# Dessiner le visage de SpongeBob (un carré jaune)
-t.fillcolor("yellow")
-t.begin_fill()
-draw_square()
-t.end_fill()
 
 # Dessiner les yeux
 t.penup()
