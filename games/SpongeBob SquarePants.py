@@ -6,22 +6,7 @@ def draw_square():
         t.right(90)
 
 
-# Dessiner les yeux
-t.penup()
-t.goto(30, 170)
-t.pendown()
-t.fillcolor("white")
-t.begin_fill()
-draw_square()
-t.end_fill()
 
-t.penup()
-t.goto(50, 190)
-t.pendown()
-t.fillcolor("black")
-t.begin_fill()
-draw_square()
-t.end_fill()
 
 t.penup()
 t.goto(90, 170)
