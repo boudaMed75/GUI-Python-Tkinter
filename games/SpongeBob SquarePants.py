@@ -8,22 +8,6 @@ def draw_square():
 
 
 
-t.penup()
-t.goto(90, 170)
-t.pendown()
-t.fillcolor("white")
-t.begin_fill()
-draw_square()
-t.end_fill()
-
-t.penup()
-t.goto(110, 190)
-t.pendown()
-t.fillcolor("black")
-t.begin_fill()
-draw_square()
-t.end_fill()
-
 # Dessiner la bouche
 t.penup()
 t.goto(60, 120)
