@@ -1,10 +1,5 @@
 import turtle as t
 
-# Configurations de la fenêtre Turtle
-t.bgcolor("sky blue")
-t.title("SpongeBob SquarePants")
-
-# Définition de la fonction pour dessiner un carré
 def draw_square():
     for _ in range(4):
         t.forward(100)
