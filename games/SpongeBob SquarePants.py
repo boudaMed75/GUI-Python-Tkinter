@@ -8,9 +8,6 @@ def draw_square():
 
 
 
-t.right(90)
-t.circle(50, 180)
-
 # Cacher le dessin quand il est terminé
 t.hideturtle()
 
