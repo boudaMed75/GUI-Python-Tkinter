@@ -8,10 +8,6 @@ def draw_square():
 
 
 
-# Dessiner la bouche
-t.penup()
-t.goto(60, 120)
-t.pendown()
 t.right(90)
 t.circle(50, 180)
 
