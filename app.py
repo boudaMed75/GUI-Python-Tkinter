@@ -16,6 +16,15 @@ def add_client():
 
     tree.insert("", tk.END, values=(cursor.lastrowid, name, phone))
 
+def delete_selection():
+    selected_item = tree.selection()
+    client_id = tree.item(selected_item, "values")[0]
+
+    cursor.execute("DELETE FROM clients WHERE id=?", (client_id,))
+    conn.commit()
+
+    tree.delete(selected_item)
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
