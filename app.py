@@ -36,6 +36,14 @@ def edit_selection():
 
     tree.item(selected_item, values=(client_id, name, phone))
 
+def sort_by_name():
+    items = tree.get_children()
+    items = sorted(items, key=lambda x: tree.item(x, "values")[1])
+    tree.delete(*tree.get_children())
+    for item in items:
+        tree.insert("", tk.END, values=tree.item(item, "values"))
+
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
