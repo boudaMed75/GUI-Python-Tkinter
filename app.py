@@ -47,6 +47,14 @@ def exit_page():
     root.destroy()
 
 
+conn = sqlite3.connect("Carnet d'Adresses.db")
+cursor = conn.cursor()
+cursor.execute('''CREATE TABLE IF NOT EXISTS clients 
+                (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, phone TEXT)''')
+conn.commit()
+
+
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
