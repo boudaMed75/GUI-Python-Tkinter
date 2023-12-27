@@ -25,6 +25,17 @@ def delete_selection():
 
     tree.delete(selected_item)
 
+def edit_selection():
+    selected_item = tree.selection()
+    client_id = tree.item(selected_item, "values")[0]
+    name = entryName.get()
+    phone = entryPhone.get()
+
+    cursor.execute("UPDATE clients SET name=?, phone=? WHERE id=?", (name, phone, client_id))
+    conn.commit()
+
+    tree.item(selected_item, values=(client_id, name, phone))
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
