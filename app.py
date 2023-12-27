@@ -1,4 +1,9 @@
-
+from tkinter import ttk
+import tkinter as tk
+from tkinter import *
+from tkinter import filedialog
+import os
+import sqlite3
 
 def browse_file(entry):
     filename = filedialog.askopenfilename(initialdir="/", title="Select A File", filetypes=(("Text files", ".txt"), ("all files", "*.*")))
