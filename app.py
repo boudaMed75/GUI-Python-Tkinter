@@ -1,5 +1,10 @@
 
 
+def browse_file(entry):
+    filename = filedialog.askopenfilename(initialdir="/", title="Select A File", filetypes=(("Text files", ".txt"), ("all files", "*.*")))
+    entry.delete(0, tk.END)
+    entry.insert(0, filename)
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
