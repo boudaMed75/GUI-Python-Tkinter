@@ -5,6 +5,17 @@ def browse_file(entry):
     entry.delete(0, tk.END)
     entry.insert(0, filename)
 
+def add_client():
+    name = entryName.get()
+    phone = entryPhone.get()
+    photo = entryPhoto.get()
+    more_info = entryMore.get()
+
+    cursor.execute("INSERT INTO clients (name, phone) VALUES (?, ?)", (name, phone))
+    conn.commit()
+
+    tree.insert("", tk.END, values=(cursor.lastrowid, name, phone))
+
 root = Tk()
 root.title("Carnet d'Adresses")
 root.geometry("550x480")
