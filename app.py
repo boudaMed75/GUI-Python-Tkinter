@@ -43,6 +43,9 @@ def sort_by_name():
     for item in items:
         tree.insert("", tk.END, values=tree.item(item, "values"))
 
+def exit_page():
+    root.destroy()
+
 
 root = Tk()
 root.title("Carnet d'Adresses")
